@@ -14,11 +14,18 @@ def line (katz_deli)
 
 end
 
-def current_line(line)
-  
-  if katz_deli.size > 1
-    return "The line is currently:"
-  
+def line (array)
+  if array.length >= 1
+    nuarray = []
+    counter = 1 
+    array.each do |name|
+      nuarray.push("#{counter}. #{name}")
+      counter += 1 
+    end 
+    puts "The line is currently: #{nuarray.join(" ")}"
+  else
+    puts "The line is currently empty."
+  end
 end
   
   
