@@ -9,6 +9,7 @@ def deli_counter(line)
   end
   
   if line == 0
-    return ""
+    return "The line is currently empty."
+  end
 
 end
