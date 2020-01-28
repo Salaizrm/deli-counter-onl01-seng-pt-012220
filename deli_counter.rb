@@ -5,7 +5,10 @@ def deli_counter(line)
   line = 0
   customer.collect do |name|
   line += 1
-  print 
+  print "Welcome, #{name}. You are number #{line} in line."
   end
+  
+  if line == 0
+    return ""
 
 end
