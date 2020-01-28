@@ -15,6 +15,7 @@ def line (katz_deli)
 end
 
 def line (array)
+  
   if array.length >= 1
     new_array = []
     counter = 1 
@@ -26,4 +27,5 @@ def line (array)
   else
     puts "The line is currently empty."
   end
+  
 end
