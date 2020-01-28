@@ -1,6 +1,6 @@
-Katz_deli = []
+katz_deli = []
 
-def current_line(line)
+def line (katz_deli)
 
   line = 0
   customer.collect do |name|
