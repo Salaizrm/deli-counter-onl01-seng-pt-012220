@@ -41,5 +41,6 @@ def take_a_number( katz_deli, name )
   
   if line == 0
     return puts "The line is currently empty."
+  end
     
 end
