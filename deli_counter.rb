@@ -17,7 +17,7 @@ end
 def current_line(line)
   
   if katz_deli.size > 1
-    return ""
+    return "The line is currently:"
   
 end
   
