@@ -8,15 +8,19 @@ def line (katz_deli)
   puts "Welcome, #{name}. You are number #{line} in line."
   end
   
-  if katz_deli.size = [0..-5]
-    return 
-  
   if line == 0
     return puts "The line is currently empty."
   end
 
 end
 
+def current_line(line)
+  
+  if katz_deli.size == 
+  
+end
+  
+  
  if array.size == 1 
     return array.first
   elsif array.size == 2
