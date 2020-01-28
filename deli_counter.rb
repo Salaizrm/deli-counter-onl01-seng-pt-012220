@@ -34,7 +34,7 @@ def take_a_number( katz_deli, name )
   
   katz_deli << name 
   line = 0
-  katz_deli.collect do |name|
+  katz_deli.push do |name|
   line += 1
   puts "Welcome, #{name}. You are number #{line} in line."
   end
