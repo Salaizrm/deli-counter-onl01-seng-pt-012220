@@ -8,6 +8,9 @@ def line (katz_deli)
   puts "Welcome, #{name}. You are number #{line} in line."
   end
   
+  if katz_deli.size = [0..-5]
+    return 
+  
   if line == 0
     return puts "The line is currently empty."
   end
