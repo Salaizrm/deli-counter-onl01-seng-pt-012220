@@ -16,7 +16,8 @@ end
 
 def current_line(line)
   
-  if katz_deli.size == 
+  if katz_deli.size > 1
+    return ""
   
 end
   
