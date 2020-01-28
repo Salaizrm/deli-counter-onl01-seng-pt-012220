@@ -23,7 +23,9 @@ def line (array)
       new_array.push("#{counter}. #{name}")
       counter += 1 
     end 
-    puts "The line is currently: #{new_array.join(" ")}"
+      puts "The line is currently: #{new_array.join(" ")}"
+    else
+      puts 
   end
   
 end
