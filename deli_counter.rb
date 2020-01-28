@@ -13,3 +13,12 @@ def line (katz_deli)
   end
 
 end
+
+ if array.size == 1 
+    return array.first
+  elsif array.size == 2
+    return array.join(" and ")
+  else
+    return array [0..-2].join(', ') + ", and " + array.last
+  end
+    
