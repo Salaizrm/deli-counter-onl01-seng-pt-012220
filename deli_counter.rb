@@ -1,4 +1,4 @@
-deli_deli = []
+Katz_deli = []
 
 def current_line(line)
 
