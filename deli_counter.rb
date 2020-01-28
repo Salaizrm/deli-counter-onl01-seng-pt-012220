@@ -1,6 +1,6 @@
 deli_deli = []
 
-def deli_counter(line)
+def current_line(line)
 
   line = 0
   customer.collect do |name|
